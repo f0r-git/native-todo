@@ -19,12 +19,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/todo_icon.png",
+        "backgroundColor": "#6A3DE8"
+      },
+      "package": "com.nativetodo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "scheme": "com.nativetodo",
+    "extra": {
+      "eas": {
+        "projectId": "7a1656f4-5781-4a5c-ad9e-e072832ddb75"
+      }
     }
   }
 }
