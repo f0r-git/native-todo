@@ -49,19 +49,6 @@ export const TodoProvider = ({ children }) => {
       });
   };
 
-  // useEffect(() => {
-  //   setLoading(true);
-  //   supabase
-  //     .from("todo_list")
-  //     .select("*")
-  //     .then(({ data, error }) => {
-  //       if (!error) {
-  //         setTodoList(data);
-  //       }
-  //       setLoading(false);
-  //     });
-  // }, []);
-
   return (
     <TodoContext.Provider
       value={{
